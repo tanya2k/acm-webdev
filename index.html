@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+- streamline and manage the induction process for clubs or organizations. 
+- include features for scheduling interviews, assigning interview panels, and managing applicant data. 
+- automate tasks like sending emails for interview invites, confirmations, and reminders. 
+- Additional features could include real-time status tracking of applicants, feedback collection from interviewers, and 
+generating reports for easy decision-making. -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Induction Process Management Web Application</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            background-color: black;
+            background-size: cover; /* Makes the image cover the whole page */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+            background-position: center center; /* Centers the image */
+        }
+    </style>
+
+</head>
+<body>
+    <h1><center><font color=white>Induction Process Management</font></center></h1>
+    <script src="index.js"></script>
+
+    <div class="main">
+        <nav>
+            <!--
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#">Calendar</a></li>
+                    <li><a href="#">Schedule Interview</a></li>
+                    <li><a href="#">Sign in</a></li>
+                </ul>
+            </div>
+        -->
+            <!--
+            <div class="form">
+                
+                <h2>Login here</h2>
+                <input type="email" name="email" placeholder="Enter email here">
+                <input type="password" name="" placeholder="Enter password here">
+                <button class="button"><a href="#">Login</a></button>
+
+                <p class="link">Don't have an account</p><br>
+                <a href="#">Sign up here</a>
+                <p class="link">Login with</p>
+            </div>
+        -->
+            <div class="schedule">
+                <h2>Schedule Interview</h2>
+                <form action="">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" required> <br>
+
+                    <label for="name">Email:</label>
+                    <input type="email" name="email" id="email" required> <br>
+
+                    <label for="name">Phone number:</label>
+                    <input type="text" name="phone" id="phone" required> <br>
+
+                    <label for="name">Club/Organization Name:</label>
+                    <input type="text" name="clubname" id="clubname" required> <br>
+
+                    <label for="name">Date:</label>
+                    <input type="date" name="date" id="date" required>
+
+                    <button type="submit">Schedule</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+</body>
+</html>
